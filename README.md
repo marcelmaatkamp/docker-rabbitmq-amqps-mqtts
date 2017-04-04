@@ -10,12 +10,12 @@ Add topics
 Start AMQPS on port 5671, MQTTS on port 8883 and the management interface of RabbitMQ on port 443 
 
 ```
-HOSTNAME=rabbitmq.mycoolserver.dyndns.com docker-compose up
+HOSTNAME=mycoolserver.dyndns.com docker-compose up
 ```
 
 # Test HTTPS
 
-Open a browser to https://rabbitmq..mycoolserver.dyndns.com and check that you see the RabbitMQs management interface and that it has a valid SSL certificate.
+Open a browser to https://rabbitmq.mycoolserver.dyndns.com and check that you see the RabbitMQs management interface and that it has a valid SSL certificate.
 
 # Test AMPQPS
 
