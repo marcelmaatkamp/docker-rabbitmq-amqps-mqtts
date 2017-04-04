@@ -1,8 +1,9 @@
-# AMQPS and MQTTS with LetsEncrypt
+# RabbitMQ with AMQPS and MQTTS with LetsEncrypt certificates
 
 # Introduction
 
-AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker.
+RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. Edit
+Add topics
 
 # Start
 
