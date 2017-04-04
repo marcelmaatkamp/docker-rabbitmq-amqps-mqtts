@@ -1,4 +1,4 @@
-# RabbitMQ with AMQPS and MQTTS with LetsEncrypt certificates
+# RabbitMQ with AMQPS and MQTTS with LetsEncrypt 
 
 # Introduction
 
