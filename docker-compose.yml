@@ -15,7 +15,7 @@ services:
   environment:
 #   - STAGE=local
     - STAGE=production
-    - DOMAINS=rabbitmq.${IP_ADDRESS}.${DNS_MAPPER} -> http://rabbitmq:15672
+    - DOMAINS=rabbitmq.${HOSTNAME} -> http://rabbitmq:15672
 
  rabbitmq:
   image: marcelmaatkamp/rabbitmq-mqtt-ldap
@@ -27,8 +27,7 @@ services:
    - 8883:8883
   environment:
    - RABBITMQ_NODENAME=rabbitmq@rabbitmq
-   - DNS_MAPPER=${DNS_MAPPER}
-   - IP_ADDRESS=${IP_ADDRESS}
+   - HOSTNAME=${HOSTNAME}
   volumes:
    - ./conf/rabbitmq.config:/etc/rabbitmq/rabbitmq.config.envsubst
    - rabbitmq:/var/lib/rabbitmq/mnesia
