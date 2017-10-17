@@ -1,9 +1,6 @@
 # RabbitMQ with AMQPS and MQTTS with LetsEncrypt 
 
-# Introduction
-
-RabbitMQ with AMQPS and MQTTS with automatic renewal of certificates from LetsEncrypt in Docker. Edit
-Add topics
+Docker container with RabbitMQ with AMQPS and MQTTS enabled with automatic renewal of ssl certificates from LetsEncrypt. The only thing needed is a hostname for your server. This example uses mycoolserver.dyndns.com but it could be any hostname.  
 
 # Start
 
